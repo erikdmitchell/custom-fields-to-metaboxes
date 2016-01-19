@@ -1,0 +1,51 @@
+.cftmb-admin-page .step,
+.cftmb-admin-page .admin-options {
+	display: none;
+}
+.cftmb-admin-page .step.active,
+.cftmb-admin-page .admin-options.active {
+	display: block;
+}
+.cftmb-admin-page #step-3 .form-table td {
+	padding: 5px 10px;
+}
+.cftmb-admin-page #step-3 .form-table tr:nth-child(even) {
+	background: #fff;
+}
+.cftmb-admin-page #debug_notices {
+	display: none;
+	position: relative;
+}
+.cftmb-admin-page #debug_notices.active {
+	display: block;
+}
+.cftmb-admin-page #clear_notices {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 3px;
+}
+.cftmb-admin-page #clear_notices a {
+	text-decoration: none;
+	color: #000;
+}
+.cftmb-admin-page #debug_notices #notices {
+	position: relative;
+	border: 1px solid #000;
+	padding: 5px;
+	background: #ccc;
+	min-height: 30px;
+}
+.cftmb-admin-page .cftmb-db-backup-warning {
+	padding-top: 1em;
+}
+.cftmb-admin-page .cftmb-debug-error {
+	color: #dc3232;
+}
+.cftmb-admin-page .cftmb-debug-updated {
+	color: green;
+}
+.cftmb-steps {
+	margin-top: -0.75em;
+	margin-bottom: 1.5em;
+}
