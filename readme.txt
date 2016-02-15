@@ -3,8 +3,8 @@ Contributors: erikdmitchell
 Donate link: erikdmitchell@gmail.com
 Tags: meta box, post meta, custom fields, meta, custom post type, post, pages
 Requires at least: 4.0
-Tested up to: 4.4.1
-Stable tag: 4.4.1
+Tested up to: 4.4.2
+Stable tag: 4.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Migrate custom fields to metabox fields.
 
 == Description ==
 
-AllowS you to match the custom fields of a post type to meta box fields. It will allow you to match the fields and then will automatically
+Allows you to match the custom fields of a post type to meta box fields. It will allow you to match the fields and then will automatically
 convert them.
 
 == Installation ==
