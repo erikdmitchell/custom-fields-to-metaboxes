@@ -376,13 +376,16 @@ class CustomFieldstoMetabox {
 		));
 		$field_keys_ignore=array('_edit_last','_edit_lock');
 
-
 		if (!count($posts))
 			return false;
 
 		// get all custom keys from all posts //
 		foreach ($posts as $post)	:
 			$custom_keys=get_post_custom_keys($post->ID);
+
+			// cehck that we have custom keys //
+			if (empty($custom_keys) || !$custom_keys)
+				continue;
 
 			foreach ($custom_keys as $key) :
 				$custom_field_keys[]=$key;
