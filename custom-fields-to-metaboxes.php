@@ -3,7 +3,7 @@
 Plugin Name: Custom Fields to Metaboxes
 Plugin URI:
 Description: Migrate custom fields to metabox fields.
-Version: 0.1.0
+Version: 0.1.1
 Author: Erik Mitchell
 Author URI: http://erikmitchell.net
 Text Domain: cftmb
